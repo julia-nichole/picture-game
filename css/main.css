@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(252, 241, 228);
+    background-color:rgb(249, 244, 244);
 }
 main {
     margin: 0;
@@ -36,3 +36,25 @@ section.grid div:hover {
 }
 
 
+.box{
+    background-image:url("https://i.imgur.com/FrEheJ9.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+    width: 95px;
+    height:95px;
+    position: relative;
+    animation-name: myanimation;
+    animation-duration: 6s ;
+    animation-iteration-count:infinite;
+    animation-delay: 1s;
+    animation-direction:alternate;
+
+}
+@keyframes myanimation{
+    0%{background-image:url("https://i.imgur.com/0MQWbJK.png"); left:50px; top:89px;}
+    15%{background-image:url("https://i.imgur.com/0MQWbJK.png");left: 700px;top:400px;}
+    25%{background-image:url("https://i.imgur.com/0MQWbJK.png");left: 500px;top:900px;}
+    50%{background-image:url("https://i.imgur.com/iZihwTz.png") ;left:950px;top:600px;}
+    75%{background-image:url("https://i.imgur.com/iZihwTz.png");left:400px;top:700px;}
+    100%{background-image:url("https://i.imgur.com/ZQtYaqZ.png");left:200px;top:100px;}
+}
