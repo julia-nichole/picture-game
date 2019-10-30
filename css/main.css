@@ -32,7 +32,7 @@ section.grid div {
     
 }
 section.grid div:hover {
-    opacity: 0.75;
+    opacity: 0.5;
 }
 
 
