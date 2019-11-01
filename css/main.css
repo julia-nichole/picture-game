@@ -19,24 +19,24 @@ h1 {
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
-section.grid {
+section.box{
     display: grid;
-    grid-template-columns: repeat(3,15vmin);
-    grid-template-rows: repeat(3,15vmin);
+    grid-template-columns: repeat(4,15vmin);
+    grid-template-rows: repeat(2,15vmin);
     border: 5px solid #EFC860;
     margin: 5vmin;
 }
-section.grid div {
+section.box div {
     border: 2px solid pink;
     background-size: 100%;
     
 }
-section.grid div:hover {
+section.box div:hover {
     opacity: 0.5;
 }
 
 
-.box{
+.ani{
     background-image:url("https://i.imgur.com/FrEheJ9.png");
     background-size:contain;
     background-repeat: no-repeat;
@@ -58,3 +58,8 @@ section.grid div:hover {
     75%{background-image:url("https://i.imgur.com/iZihwTz.png");left:400px;top:700px;}
     100%{background-image:url("https://i.imgur.com/ZQtYaqZ.png");left:200px;top:100px;}
 }
+button {
+    display: flex;
+}
+
+

@@ -1,19 +1,21 @@
-const pictures = {
-    1:"Screen Shot 2019-10-30 at 2.46.18 PM.png",
-    2:"Screen Shot 2019-10-30 at 2.48.00 PM.png",
-    3:"Screen Shot 2019-10-30 at 2.49.13 PM.png",
-    4:"Screen Shot 2019-10-30 at 2.49.43 PM.png",
-    5:"Screen Shot 2019-10-30 at 2.50.35 PM.png",
-    6:"Screen Shot 2019-10-30 at 2.50.57 PM.png"
+const coco = {
+    0:{imgUrl:"https://i.imgur.com/J7Iw3J0.jpg"},
+    1:{imgUrl:"https://i.imgur.com/zCe0nHA.jpg"},
+    2:{imgUrl:"https://i.imgur.com/3utOB37.jpg"},
+}
+const arry = [0,1,2]
 
 
-};
+//event listeners//
+const scoreInput = document.querySelector('h2');
+const slotBox = document.querySelector("section");
+const spinner = document.querySelector("button");
 
-
-
-let picArray = [1,2,3,4,5,6];
-grid = [
-    1,2,
-    3,4,
-    4,6
-];
+function shuffle(arry){
+    if (gameScore === "Winner!") return;
+    var score = "";
+    for (var i = 0; i < lookupABC.length; i++) {
+        score += "" + `<img src="${coco[arry[spinSlot()]].imgUrl}">`;
+    }
+    document.getElementById("box").innerHTML = score;
+}
