@@ -2,16 +2,16 @@ const array = [1, 2, 3, 4];
 
 const coco = {
     1: {
-        imgUrl: 'https://i.imgur.com/J7Iw3J0.jpg'
+        imgUrl: "https://i.imgur.com/Jk3pGZU.jpg"
     },
     2: {
-        imgUrl: 'https://i.imgur.com/zCe0nHA.jpg'
+        imgUrl: 'https://i.imgur.com/ELv8xT1.jpg'
     },
     3: {
-        imgUrl: 'https://i.imgur.com/3utOB37.jpg'
+        imgUrl: 'https://i.imgur.com/bmJNfFE.jpg'
     },
     4: {
-        imgUrl: 'https://i.imgur.com/44fW61J.jpg'
+        imgUrl: "https://i.imgur.com/J7Iw3J0.jpg"
     }
 
 };
@@ -51,9 +51,9 @@ function handleClick(evt) {
 
 
 function scoreBoard() {
-    if (('https://i.imgur.com/J7Iw3J0.jpg' === 'https://i.imgur.com/J7Iw3J0.jpg') || ('' === '') || ('https://i.imgur.com/3utOB37.jpg' === 'https://i.imgur.com/3utOB37.jpg')) {
-        return gameScore = (gameScore + 100);
-    } else if ('https://i.imgur.com/J7Iw3J0.jpg' === 'https://i.imgur.com/J7Iw3J0.jpg' && 'https://i.imgur.com/J7Iw3J0.jpg' || '' === '' && '' || 'https://i.imgur.com/3utOB37.jpg' === 'https://i.imgur.com/3utOB37.jpg' && 'https://i.imgur.com/3utOB37.jpg') {
+    if (("https://i.imgur.com/Jk3pGZU.jpg" === "https://i.imgur.com/Jk3pGZU.jpg") || ('https://i.imgur.com/J7Iw3J0.jpg' === 'https://i.imgur.com/J7Iw3J0.jpg') || ('https://i.imgur.com/bmJNfFE.jpg' === 'https://i.imgur.com/bmJNfFE.jpg')||('https://i.imgur.com/ELv8xT1.jpg' === 'https://i.imgur.com/ELv8xT1.jpg')) {
+        return gameScore = (gameScore + 50);
+    } else if ("https://i.imgur.com/Jk3pGZU.jpg" === "https://i.imgur.com/Jk3pGZU.jpg" && "https://i.imgur.com/Jk3pGZU.jpg" || 'https://i.imgur.com/ELv8xT1.jpg' === 'https://i.imgur.com/ELv8xT1.jpg' && 'https://i.imgur.com/ELv8xT1.jpg' || 'https://i.imgur.com/bmJNfFE.jpg' === 'https://i.imgur.com/bmJNfFE.jpg' && 'https://i.imgur.com/bmJNfFE.jpg') {
         gameScore = gameScore + 200;
     }
     

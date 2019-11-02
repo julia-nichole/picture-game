@@ -1,17 +1,17 @@
 * {
-    background-color:white;
+    background-color:rgb(249, 244, 244);
 }
 
 body {
     text-align: center;
-    background-color:rgb(249, 244, 244)
+    background-color:rgb(249, 244, 244);
 }
 
 img {
    background-color:rgb(249, 244, 244);
-   border:pink;
-   border-style: inset;
-   border-width: 5px;
+   border:pink solid;
+  
+   border-width: 10px;
    height: 200px;
    width: 200px;
 }
@@ -36,27 +36,22 @@ h1 {
 
 h2 {
     margin: 50px auto;
-    background-color:;
+    background-color:rgb(249, 244, 244);
     height: 40px;
     width: 150px;
     padding: 3px;
     border: gray;
     border-style: solid;
     border-width: 3px;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
-h3 {
-    color: white;
-    text-align: left;
-    font-family: 'Nunito', sans-serif;
-}
 
 p {
     
     text-align: left;
     list-style: none;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -81,9 +76,22 @@ p {
     50%{background-image:url("https://i.imgur.com/iZihwTz.png") ;left:950px;top:600px;}
     75%{background-image:url("https://i.imgur.com/iZihwTz.png");left:400px;top:700px;}
     100%{background-image:url("https://i.imgur.com/ZQtYaqZ.png");left:200px;top:100px;}
-} */
+} 
 button {
     display: flex;
+    background-color: rgb(240, 157, 14);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 4px;
+   
 }
 
-
+button:hover {
+    box-shadow: 0 12px 16px 0 yellow, 0 17px 50px 0 yellow;
+  }
